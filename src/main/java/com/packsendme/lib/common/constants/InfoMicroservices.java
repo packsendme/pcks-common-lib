@@ -2,6 +2,10 @@ package com.packsendme.lib.common.constants;
 
 public final class InfoMicroservices {
 	
+	
+	//User
+	public static final String USER_URL_VALIDADUSERNAME = "http://packsendme-iam-server/iam/api/user/validadUsername/{username}";
+
 	public static final String MICROSERVICE_ACCOUNT = "packsendme-account-server";
 	public static final String MC_ACCOUNT_OP_CREATE = "packsendme-account-server/createAccountService";
 	public static final String MC_ACCOUNT_OP_LOAD  = "packsendme-account-server/loadAccountService";
