@@ -1,5 +1,4 @@
 C:\RepositoryGitPacksendme\lib-service\packsendme-common-lib\src\main\java\com\packsendme\lib\common\response\Response.java
-C:\RepositoryGitPacksendme\lib-service\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\Exception.java
-C:\RepositoryGitPacksendme\lib-service\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\InfoMicroservices.java
 C:\RepositoryGitPacksendme\lib-service\packsendme-common-lib\src\main\java\com\packsendme\lib\exception\ExceptionHandlerController.java
-C:\RepositoryGitPacksendme\lib-service\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\Message.java
+C:\RepositoryGitPacksendme\lib-service\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\HttpExceptionPackSend.java
+C:\RepositoryGitPacksendme\lib-service\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\MicroservicesConstants.java

@@ -1,16 +1,16 @@
 package com.packsendme.lib.common.response;
 
-import org.springframework.http.HttpStatus;
+import com.packsendme.lib.common.constants.HttpExceptionPackSend;
 
 public class Response<T> {
 	
-	private HttpStatus status;
+	private HttpExceptionPackSend status;
 	private String message;
 	private T body;
 	private T response;
 
 
-	  public Response(HttpStatus status, String message, T body) {
+	  public Response(HttpExceptionPackSend status, String message, T body) {
 	    this.status = status == null ? status : status;
 	    this.message = message == null ? message : message;
 	    this.body = body == null ? body : body;
@@ -51,7 +51,7 @@ public class Response<T> {
 	  /**
 	   * @return the responseCode
 	   */
-	  public HttpStatus getStatus() {
+	  public HttpExceptionPackSend getStatus() {
 
 	    return this.status;
 	  }

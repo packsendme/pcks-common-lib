@@ -1,5 +1,4 @@
-com\packsendme\lib\common\constants\Message.class
 com\packsendme\lib\exception\ExceptionHandlerController.class
-com\packsendme\lib\common\constants\Exception.class
 com\packsendme\lib\common\response\Response.class
-com\packsendme\lib\common\constants\InfoMicroservices.class
+com\packsendme\lib\common\constants\HttpExceptionPackSend.class
+com\packsendme\lib\common\constants\MicroservicesConstants.class
