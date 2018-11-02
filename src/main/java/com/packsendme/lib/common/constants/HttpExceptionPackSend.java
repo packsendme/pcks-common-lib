@@ -19,72 +19,72 @@ public enum HttpExceptionPackSend {
 	 * {@code 201 ACCOUNT_CREATED}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
-	ACCOUNT_CREATED(201, "ACCOUNT CREATED IN SYSTEM"),
+	ACCOUNT_CREATED(201, "ACCOUNT_CREATED"),
 
 	/**
 	 * {@code 202 ACCOUNT_CREATED}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
-	USER_ACCESS_CREATED(202, "USER ACCESS CREATED IN SYSTEM"),
+	USER_ACCESS_CREATED(202, "ACCESS_CREATED"),
 
 	/**
 	 * {@code 203 USERNAME_REGISTER}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
-	USERNAME_REGISTER(203, "USERNAME REGISTER IN SYSTEM"),
+	USERNAME_REGISTER(203, "USERNAME_REGISTER"),
 
 	/**
 	 * {@code 204 USER_DELETE_ACCOUNT}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
-	USER_DELETE(204, "USER DELETE ACCOUNT IN SYSTEM"),
+	USER_DELETE(204, "USERNAME_DELETE"),
 
 
 	/**
 	 * {@code 205 ACCOUNT_DELETE}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
-	ACCOUNT_DELETE(205, "USER DELETE ACCOUNT IN SYSTEM"),
+	ACCOUNT_DELETE(205, "ACCOUNT_DELETE"),
 
 	
 	/**
 	 * {@code 206 UPDATE_ACCOUNT}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
-	UPDATE_ACCOUNT(206, "UPDATE ACCOUNT IN SYSTEM"),
+	UPDATE_ACCOUNT(206, "ACCOUNT_UPDATE"),
 
 	// A) 300 - 400 (VALIDATE)
 
 	/**
 	 * {@code 302 NOT FOUND ACCOUNT}.
 	 */
-	FOUND_ACCOUNT(302, "ACCOUNT FOUND"),
+	FOUND_ACCOUNT(302, "ACCOUNT_FOUND"),
 
 	/**
 	 * {@code 302 NOT FOUND ACCOUNT}.
 	 */
-	FOUND_USER(303, "USER FOUND"),
+	FOUND_USER(303, "USERNAME_FOUND"),
 
 	/**
 	 * {@code 302 NOT FOUND ACCOUNT}.
 	 */
-	FOUND_SMS_CODE(304, "CODE SMS FOUND"),
+	FOUND_SMS_CODE(304, "SMSCODE_FOUND"),
 	
 	/**
 	 * {@code 305 NOT FOUND ACCOUNT}.
 	 */
-	USERNAME_VALIDATE_ACCESS(305, "USERNAME VALIDATE SUCCESS"),
+	USERNAME_VALIDATE_ACCESS(305, "USERNAME_SUCCESS"),
 	
 	/**
 	 * {@code 306 NOT FOUND ACCOUNT}.
 	 */
-	NOT_FOUND_EMAIL(306, "EMAIL NOT FOUND"),
+	NOT_FOUND_EMAIL(306, "EMAIL_NOTFOUND"),
 	
 	
 	/**
 	 * {@code 307 USERNAME UPDATE}.
 	 */
-	USERNAME_UPDATE(307, "USERNAME UPDATE"),
+	USERNAME_UPDATE(307, "USERNAME_UPDATE"),
 	
 	
 	 // 400 - 500
@@ -93,13 +93,13 @@ public enum HttpExceptionPackSend {
 	/**
 	 * {@code 404 NOT FOUND ACCOUNT}.
 	 */
-	NOT_FOUND_ACCOUNT(404, "ACCOUNT NOT FOUND"),
+	NOT_FOUND_ACCOUNT(404, "ACCOUNT_NOTFOUND"),
 
 	
 	/**
 	 * {@code 405 NOT FOUND ACCOUNT}.
 	 */
-	NOT_FOUND_SMS_CODE(405, "NOT FOUND SMS CODE"),
+	NOT_FOUND_SMS_CODE(405, "SMSCODE_NOTFOUND "),
 
 	/**
 	 * {@code 406 USERNAME_REGISTER}.
@@ -111,7 +111,7 @@ public enum HttpExceptionPackSend {
 	/**
 	 * {@code 407 NOT FOUND ACCOUNT}.
 	 */
-	FOUND_EMAIL(407, "EMAIL FOUND"),
+	FOUND_EMAIL(407, "EMAIL_FOUND"),
 
 	
 	 // 500 - 600
@@ -120,7 +120,7 @@ public enum HttpExceptionPackSend {
 	 * {@code 500 Internal Server Error}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.6.1">HTTP/1.1: Semantics and Content, section 6.6.1</a>
 	 */
-	FAIL_EXECUTION(500, "FAIL GENERAL SYSTEM"),
+	FAIL_EXECUTION(500, "FAIL_GENERALSYSTEM"),
 	
 
 	/**
