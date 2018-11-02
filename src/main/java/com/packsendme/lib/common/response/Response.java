@@ -1,17 +1,15 @@
 package com.packsendme.lib.common.response;
 
-import com.packsendme.lib.common.constants.HttpExceptionPackSend;
-
 public class Response<T> {
 	
-	private HttpExceptionPackSend status;
+	private int codStatus;
 	private String message;
 	private T body;
 	private T response;
 
 
-	  public Response(HttpExceptionPackSend status, String message, T body) {
-	    this.status = status == null ? status : status;
+	  public Response(int codStatus, String message, T body) {
+	    this.codStatus = codStatus == 0 ? codStatus : codStatus;
 	    this.message = message == null ? message : message;
 	    this.body = body == null ? body : body;
 	    this.response = null;
@@ -51,9 +49,9 @@ public class Response<T> {
 	  /**
 	   * @return the responseCode
 	   */
-	  public HttpExceptionPackSend getStatus() {
+	  public int getCodStatus() {
 
-	    return this.status;
+	    return this.codStatus;
 	  }
 
 }
