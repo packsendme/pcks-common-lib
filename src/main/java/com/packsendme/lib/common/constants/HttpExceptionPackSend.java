@@ -99,7 +99,7 @@ public enum HttpExceptionPackSend {
 	/**
 	 * {@code 405 NOT FOUND ACCOUNT}.
 	 */
-	NOT_FOUND_SMS_CODE(405, "SMSCODE_NOTFOUND "),
+	NOT_FOUND_SMS_CODE(405, "SMSCODE_NOTFOUND"),
 
 	/**
 	 * {@code 406 USERNAME_REGISTER}.

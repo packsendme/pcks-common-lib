@@ -15,8 +15,8 @@ public final class MicroservicesConstants {
 
 	public static final String ACTIVATIONKEY_FALSE = "NULL";
 	
-	public static final boolean SMS_VALIDATE_SUCCESS = true;
-	public static final boolean SMS_VALIDATE_ERROR = false;
+	public static final boolean SMS_VALIDATE_FOUND = true;
+	public static final boolean SMS_VALIDATE_NOTFOUND = false;
 
 	public static final String UPDATE_OP_USERNAME = "UPDATE";
 	public static final String ADD_OP_USERNAME = "ADD";
