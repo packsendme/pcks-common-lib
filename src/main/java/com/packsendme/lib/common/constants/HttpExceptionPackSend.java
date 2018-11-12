@@ -19,7 +19,7 @@ public enum HttpExceptionPackSend {
 	 * {@code 201 ACCOUNT_CREATED}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
-	ACCOUNT_CREATED(201, "ACCOUNT_CREATED"),
+	CREATED_ACCOUNT(201, "CREATED_ACCOUNT"),
 
 	/**
 	 * {@code 202 ACCOUNT_CREATED}.
@@ -31,13 +31,13 @@ public enum HttpExceptionPackSend {
 	 * {@code 203 USERNAME_REGISTER}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
-	USERNAME_REGISTER(203, "USERNAME_REGISTER"),
+	REGISTER_USERNAME(203, "REGISTER_USERNAME"),
 
 	/**
 	 * {@code 204 USER_DELETE_ACCOUNT}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
-	USER_DELETE(204, "USERNAME_DELETE"),
+	CANCEL_USERNAME(204, "CANCEL_USERNAME"),
 
 
 	/**
@@ -52,6 +52,12 @@ public enum HttpExceptionPackSend {
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
 	UPDATE_ACCOUNT(206, "ACCOUNT_UPDATE"),
+
+	/**
+	 * {@code 206 UPDATE_ACCOUNT}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	UPDATE_PASSWORD(207, "PASSWORD_UPDATE"),
 
 	// A) 300 - 400 (VALIDATE)
 
@@ -84,8 +90,13 @@ public enum HttpExceptionPackSend {
 	/**
 	 * {@code 307 USERNAME UPDATE}.
 	 */
-	USERNAME_UPDATE(307, "USERNAME_UPDATE"),
-	
+	UPDATE_USERNAME(307, "UPDATE_USERNAME"),
+
+	/**
+	 * {@code 307 USERNAME UPDATE}.
+	 */
+	LOGIN_USER(308, "LOGIN_USER"),
+
 	
 	 // 400 - 500
 	
