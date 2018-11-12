@@ -2,14 +2,12 @@ package com.packsendme.lib.common.response;
 
 public class Response<T> {
 	
-	private int codStatus;
 	private String message;
 	private T body;
 	private T response;
 
 
-	  public Response(int codStatus, String message, T body) {
-	    this.codStatus = codStatus == 0 ? codStatus : codStatus;
+	  public Response(String message, T body) {
 	    this.message = message == null ? message : message;
 	    this.body = body == null ? body : body;
 	    this.response = null;
@@ -44,14 +42,6 @@ public class Response<T> {
 	  public T getBody() {
 
 	    return this.body;
-	  }
-
-	  /**
-	   * @return the responseCode
-	   */
-	  public int getCodStatus() {
-
-	    return this.codStatus;
 	  }
 
 }
