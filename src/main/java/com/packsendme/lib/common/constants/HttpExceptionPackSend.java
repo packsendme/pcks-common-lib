@@ -59,6 +59,13 @@ public enum HttpExceptionPackSend {
 	 */
 	UPDATE_PASSWORD(207, "PASSWORD_UPDATE"),
 
+	/**
+	 * {@code 206 UPDATE_ACCOUNT}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	GENERATOR_SMSCODE(208, "GENERATOR_SMSCODE"),
+	
+	
 	// A) 300 - 400 (VALIDATE)
 
 	/**
