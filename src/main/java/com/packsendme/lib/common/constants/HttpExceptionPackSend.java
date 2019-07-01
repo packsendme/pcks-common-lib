@@ -64,7 +64,12 @@ public enum HttpExceptionPackSend {
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
 	GENERATOR_SMSCODE(208, "GENERATOR_SMSCODE"),
-	
+
+	/**
+	 * {@code 209 UPDATE_ACCOUNT}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	CREATE_PAYMENT(209, "CREATE_PAYMENT"),
 	
 	// A) 300 - 400 (VALIDATE)
 
@@ -103,6 +108,12 @@ public enum HttpExceptionPackSend {
 	 * {@code 307 USERNAME UPDATE}.
 	 */
 	LOGIN_USER(308, "LOGIN_USER"),
+	
+	/**
+	 * {@code 302 NOT FOUND PAYMENT TYPE}.
+	 */
+	FOUND_PAYMENT(309, "FOUND_PAYMENT"),
+
 
 	
 	 // 400 - 500
@@ -130,6 +141,11 @@ public enum HttpExceptionPackSend {
 	 * {@code 407 NOT FOUND ACCOUNT}.
 	 */
 	FOUND_EMAIL(407, "EMAIL_FOUND"),
+	
+	/**
+	 * {@code 302 NOT FOUND PAYMENT TYPE}.
+	 */
+	NOT_FOUND_PAYMENT(408, "NOT_FOUND_PAYMENT"),
 
 	
 	 // 500 - 600

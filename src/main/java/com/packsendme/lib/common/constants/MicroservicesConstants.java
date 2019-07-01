@@ -12,7 +12,8 @@ public final class MicroservicesConstants {
 	public static final String MC_ACCOUNT_OP_CANCEL  = "packsendme-account-server/cancelAccountService";
 	public static final String MC_ACCOUNT_OP_UPDATE  = "packsendme-account-server/updateAccountService";
 	
-
+	public static final String STATUS_ACTIVE = "ACTIVATED";
+	public static final String STATUS_DISABLED = "DISABLED";
 
 	public static final String ACTIVATIONKEY = "NULL";
 	
