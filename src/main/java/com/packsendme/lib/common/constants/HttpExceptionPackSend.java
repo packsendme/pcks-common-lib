@@ -66,10 +66,27 @@ public enum HttpExceptionPackSend {
 	GENERATOR_SMSCODE(208, "GENERATOR_SMSCODE"),
 
 	/**
-	 * {@code 209 UPDATE_ACCOUNT}.
+	 * {@code 209 CREATE_PAYMENT}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
 	CREATE_PAYMENT(209, "CREATE_PAYMENT"),
+	
+	
+	/**
+	 * {@code 210 DELETE_PAYMENT}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	DELETE_PAYMENT(210, "DELETE_PAYMENT"),
+	
+	/**
+	 * {@code 211 UPDATE_PAYMENT}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	UPDATE_PAYMENT(211, "UPDATE_PAYMENT"),
+	
+	
+	
+	
 	
 	// A) 300 - 400 (VALIDATE)
 
