@@ -85,7 +85,11 @@ public enum HttpExceptionPackSend {
 	UPDATE_PAYMENT(211, "UPDATE_PAYMENT"),
 	
 	
-	
+	/**
+	 * {@code 212 CREATED_COUNRTY}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	COUNTRY_CREATED(212, "COUNTRY_CREATED"),
 	
 	
 	// A) 300 - 400 (VALIDATE)
@@ -113,7 +117,7 @@ public enum HttpExceptionPackSend {
 	/**
 	 * {@code 306 NOT FOUND ACCOUNT}.
 	 */
-	NOT_FOUND_EMAIL(306, "EMAIL_NOTFOUND"),
+	NOT_FOUND_EMAIL(306, "NOT_FOUND_EMAIL"),
 	
 	
 	/**
@@ -131,7 +135,15 @@ public enum HttpExceptionPackSend {
 	 */
 	FOUND_PAYMENT(309, "FOUND_PAYMENT"),
 
-
+	/**
+	 * {@code 303 COUNTRY_NOT_FOUND}.
+	 */
+	COUNTRY_NOT_FOUND(303, "COUNTRY_NOT_FOUND"),
+	
+	/**
+	 * {@code 304 COUNTRY_FOUND}.
+	 */
+	COUNTRY_FOUND(304, "COUNTRY_FOUND"),
 	
 	 // 400 - 500
 	
