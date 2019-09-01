@@ -144,8 +144,15 @@ public enum HttpExceptionPackSend {
 	 * {@code 304 COUNTRY_FOUND}.
 	 */
 	COUNTRY_FOUND(304, "COUNTRY_FOUND"),
+
+	/**
+	 * {@code 305 VALIDATE_CARD}.
+	 */
+	VALIDATE_CARD(305, "VALIDATE_CARD"),
+
 	
-	 // 400 - 500
+	
+	// 400 - 500
 	
 	
 	/**
@@ -176,6 +183,14 @@ public enum HttpExceptionPackSend {
 	 */
 	NOT_FOUND_PAYMENT(408, "NOT_FOUND_PAYMENT"),
 
+	
+	/**
+	 * {@code 409 NOT_VALIDATE_CARD}.
+	 */
+	NOT_VALIDATE_CARD(409, "NOT_VALIDATE_CARD"),
+
+	
+	
 	
 	 // 500 - 600
 
