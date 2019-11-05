@@ -91,6 +91,12 @@ public enum HttpExceptionPackSend {
 	 */
 	COUNTRY_CREATED(212, "COUNTRY_CREATED"),
 	
+	/**
+	 * {@code 213 DELETE_SMSCODE}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	DELETE_SMSCODE(213, "DELETE_SMSCODE"),
+	
 	
 	// A) 300 - 400 (VALIDATE)
 
