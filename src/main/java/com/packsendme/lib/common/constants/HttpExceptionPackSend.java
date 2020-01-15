@@ -97,6 +97,9 @@ public enum HttpExceptionPackSend {
 	 */
 	DELETE_SMSCODE(213, "DELETE_SMSCODE"),
 	
+
+	GOOGLEAPI_PLACE(214, "GOOGLE_DISTANCE"),
+
 	
 	// A) 300 - 400 (VALIDATE)
 
