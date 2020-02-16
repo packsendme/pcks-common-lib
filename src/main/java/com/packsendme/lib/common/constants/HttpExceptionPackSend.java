@@ -99,6 +99,8 @@ public enum HttpExceptionPackSend {
 	
 
 	GOOGLEAPI_PLACE(214, "GOOGLE_DISTANCE"),
+	
+	BUSINESS_RULE(215, "BUSINESS_RULE"),
 
 	
 	// A) 300 - 400 (VALIDATE)
