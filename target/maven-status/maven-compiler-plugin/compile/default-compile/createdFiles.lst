@@ -6,3 +6,4 @@ com\packsendme\lib\common\constants\PaymentConstants.class
 com\packsendme\lib\common\constants\HttpExceptionPackSend.class
 com\packsendme\lib\common\constants\AccountConstant.class
 com\packsendme\lib\common\constants\MicroservicesConstants.class
+com\packsendme\lib\common\constants\Topic_SA_Constants.class
