@@ -215,7 +215,7 @@ public enum HttpExceptionPackSend {
 	 */
 	NOT_VALIDATE_CARD(409, "NOT_VALIDATE_CARD"),
 
-	
+	NOT_FOUND_GOOGLEAPI_PLACE(410, "NOT_FOUND"),
 	
 	
 	 // 500 - 600
