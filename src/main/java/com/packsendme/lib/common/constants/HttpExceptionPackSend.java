@@ -177,6 +177,12 @@ public enum HttpExceptionPackSend {
 	 */
 	SIMULATION_MARITIMEWAY(308, "SIMULATION_MARITIMEWAY"),
 	
+	/**
+	 * {@code 309 SIMULATION_MARITIMEWAY}.
+	 */
+	FOUND_BUSINESS_RULE(309, "FOUND_BUSINESS_RULE"),
+	
+	
 	
 	// 400 - 500
 	
