@@ -176,7 +176,7 @@ public enum HttpExceptionPackSend {
 	 * {@code 308 SIMULATION_MARITIMEWAY}.
 	 */
 	SIMULATION_MARITIMEWAY(308, "SIMULATION_MARITIMEWAY"),
-
+	
 	
 	// 400 - 500
 	
@@ -216,6 +216,9 @@ public enum HttpExceptionPackSend {
 	NOT_VALIDATE_CARD(409, "NOT_VALIDATE_CARD"),
 
 	NOT_FOUND_GOOGLEAPI_PLACE(410, "NOT_FOUND"),
+	
+	NOT_BUSINESS_RULE(411, "NOT_FOUND"),
+
 	
 	
 	 // 500 - 600
