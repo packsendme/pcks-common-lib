@@ -1,4 +1,4 @@
-package com.packsendme.lib.common.constants;
+package com.packsendme.lib.common.constants.generic;
 
 public enum HttpExceptionPackSend {
 
