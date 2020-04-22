@@ -1,4 +1,4 @@
-package com.packsendme.lib.common.response.api.google;
+package com.packsendme.lib.common.response.dto.api;
 
 import java.io.Serializable;
 
