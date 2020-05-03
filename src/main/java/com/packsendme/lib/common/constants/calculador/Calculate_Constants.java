@@ -7,4 +7,6 @@ public class Calculate_Constants {
 	
 	public static final Double VALUE_DEFAUL = 0.00;
 	
+	public static final String VALUE_DEFAUL_S = "0.00";
+	
 }
