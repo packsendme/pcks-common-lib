@@ -13,4 +13,10 @@ public class ConvertFormat {
 		Date dtNow = inFormat.parse(dateJson); 
 		return dtNow;
 	}
+	
+	public Date convertStringToDateShort(String dateJson) throws Exception {
+		SimpleDateFormat inFormat = new SimpleDateFormat("yyyy-MM-dd");
+		Date dtNow = inFormat.parse(dateJson); 
+		return dtNow;
+	}
 }
