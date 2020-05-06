@@ -98,10 +98,25 @@ public enum HttpExceptionPackSend {
 	DELETE_SMSCODE(213, "DELETE_SMSCODE"),
 	
 
+	/**
+	 * {@code 213 DELETE_SMSCODE}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
 	GOOGLEAPI_PLACE(214, "GOOGLE_DISTANCE"),
-	
+
+	/**
+	 * {@code 215, "BUSINESS_RULE"}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
 	BUSINESS_RULE(215, "BUSINESS_RULE"),
 
+
+	/**
+	 * {@code 213 DELETE_SMSCODE}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	EXCHANGE_RATE(218, "EXCHANGE_RATE"),
+	
 	
 	// A) 300 - 400 (VALIDATE)
 
@@ -182,7 +197,10 @@ public enum HttpExceptionPackSend {
 	 */
 	FOUND_BUSINESS_RULE(309, "FOUND_BUSINESS_RULE"),
 	
-	
+	/**
+	 * {@code 310 FOUND_EXCHANGE}.
+	 */
+	FOUND_EXCHANGE(310, "FOUND_EXCHANGE"),
 	
 	// 400 - 500
 	
