@@ -1,8 +1,8 @@
-C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\utility\ValueFormat.java
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\generic\CacheBRE_Constants.java
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\way\Roadway_Constants.java
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\generic\PaymentConstants.java
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\generic\HttpExceptionPackSend.java
+C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\calculador\Currency_Country.java
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\response\dto\api\GoogleAPITrackingResponse_Dto.java
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\response\Response.java
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\generic\MetricUnitMeasurement_Constants.java
@@ -20,3 +20,4 @@ C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\calculador\Calculate_Constants.java
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\calculador\Currency_Constants.java
 C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\common\constants\generic\GoogleAPI_Constants.java
+C:\Users\r.libera.marzochi\Documents\PackSendMe\git\Lib-Common\packsendme-common-lib\src\main\java\com\packsendme\lib\utility\FormatValueMoney.java
