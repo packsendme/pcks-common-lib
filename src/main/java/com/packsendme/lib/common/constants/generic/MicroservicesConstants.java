@@ -26,5 +26,9 @@ public final class MicroservicesConstants {
 	public static final boolean USERNAME_ACCOUNT_ACTIVE = true;
 	public static final boolean USERNAME_ACCOUNT_DISABLED = false;
 	
+	// HEADER - HTTP
+	public static final String WEB_REQUEST_ORIGIN = "APP-WEB";
+	public static final String MOBILE_REQUEST_ORIGIN = "APP-MOBILE";
+	public static final String MICROSERVICE_REQUEST_ORIGIN = "APP-MICROSERVICE";
 
 }
