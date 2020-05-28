@@ -1,6 +1,6 @@
 package com.packsendme.lib.common.constants.way;
 
-public class Roadway_Constants {
+public final class Roadway_Constants {
 	
 	public static final String ROADWAY_BICYCLE = "Bicycle"; 
 	public static final String ROADWAY_CAR = "Car"; 
