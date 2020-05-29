@@ -1,5 +1,7 @@
 package com.packsendme.lib.utility;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.text.NumberFormat;
 import java.util.Locale;
 
@@ -20,5 +22,11 @@ public class FormatValueMoney {
 			vlrFormat = nf.format(value);
 		}
 		return vlrFormat;
+	}
+	
+	public double doubleFormatRound(double value) {
+	    BigDecimal bd = BigDecimal.valueOf(value);
+	    bd = bd.setScale(2, RoundingMode.HALF_UP);
+	    return bd.doubleValue();
 	}
 }
