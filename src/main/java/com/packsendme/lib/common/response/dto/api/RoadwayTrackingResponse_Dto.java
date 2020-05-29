@@ -25,7 +25,7 @@ public class RoadwayTrackingResponse_Dto implements Serializable {
 	public String unity_measurement_distance;
 	
 	public RoadwayTrackingResponse_Dto(String name_country, int toll_amount, Double toll_price, Double country_distanceF, Double country_distanceM,
-			Double fuel_price, String currency_price, String unity_measurement_distance) {
+			Double fuel_price, String unity_measurement_distance) {
 		super();
 		this.name_country = name_country;
 		this.toll_amount = toll_amount;
@@ -33,7 +33,6 @@ public class RoadwayTrackingResponse_Dto implements Serializable {
 		this.country_distanceF = country_distanceF;
 		this.country_distanceM = country_distanceM;
 		this.fuel_price = fuel_price;
-		this.currency_price = currency_price;
 		this.unity_measurement_distance = unity_measurement_distance;
 	}
 	
