@@ -117,6 +117,31 @@ public enum HttpExceptionPackSend {
 	 */
 	EXCHANGE_RATE(218, "EXCHANGE_RATE"),
 	
+	/**
+	 * {@code 213 DELETE_SMSCODE}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	DELETE_VEHICLE(219, "DELETE_VEHICLE"),
+	
+	/**
+	 * {@code 213 DELETE_SMSCODE}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	DELETE_BODYWORK(220, "DELETE_BODYWORK"),
+	
+	
+	/**
+	 * {@code 213 DELETE_SMSCODE}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	CREATE_ROADWAYBRE(221, "CREATE_ROADWAYBRE"),
+	
+	/**
+	 * {@code 222  DELETE_ROADWAYRULE}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	DELETE_ROADWAYBRE(222, "DELETE_ROADWAYRULE"),
+
 	
 	// A) 300 - 400 (VALIDATE)
 
@@ -202,8 +227,56 @@ public enum HttpExceptionPackSend {
 	 */
 	FOUND_EXCHANGE(310, "FOUND_EXCHANGE"),
 	
-	// 400 - 500
+	/**
+	 * {@code 311 FOUND_EXCHANGE}.
+	 */
+	CREATED_VEHICLE(311, "CREATE_VEHICLE"),
 	
+	/**
+	 * {@code 312 FOUND_EXCHANGE}.
+	 */
+	CREATED_CATEGORY(312, "CREATE_CATEGORY"),
+	
+	/**
+	 * {@code 313 FOUND_EXCHANGE}.
+	 */
+	FOUND_CATEGORY(313, "FOUND_CATEGORY"),
+
+	
+	/**
+	 * {@code 312 FOUND_BODYWORK}.
+	 */
+	CREATED_BODYWORK(314, "CREATE_BODYWORK"),
+	
+	/**
+	 * {@code 315 CREATED_ROADWAYBRE}.
+	 */
+	CREATED_ROADWAYBRE(315, "CREATED_ROADWAYBRE"),
+	
+	/**
+	 * {@code 316 UPDATE_ROADWAY}.
+	 */
+	UPDATE_ROADWAY(316, "UPDATE_ROADWAY"),
+	
+
+	/**
+	 * {@code 317 UPDATE_BODYWORK}.
+	 */
+	UPDATE_BODYWORK(317, "UPDATE_BODYWORK"),
+	
+	/**
+	 * {@code 318 UPDATE_CATEGORY}.
+	 */
+	UPDATE_CATEGORY(318, "UPDATE_CATEGORY"),
+	
+	
+	/**
+	 * {@code 319 UPDATE_VEHICLE}.
+	 */
+	UPDATE_VEHICLE(319, "UPDATE_VEHICLE"),
+
+	
+	// 400 - 500
 	
 	/**
 	 * {@code 404 NOT FOUND ACCOUNT}.
@@ -243,7 +316,7 @@ public enum HttpExceptionPackSend {
 	
 	NOT_BUSINESS_RULE(411, "NOT_FOUND"),
 
-	
+	NOT_FOUND_CATEGORY(412, "NOT_FOUND_CATEGORY"),
 	
 	 // 500 - 600
 
