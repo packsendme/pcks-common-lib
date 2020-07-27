@@ -142,6 +142,12 @@ public enum HttpExceptionPackSend {
 	 */
 	DELETE_ROADWAYBRE(222, "DELETE_ROADWAYRULE"),
 
+	/**
+	 * {@code 222  DELETE_ROADWAYRULE}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	DELETE_CATEGORY(223, "DELETE_CATEGORY"),
+
 	
 	// A) 300 - 400 (VALIDATE)
 
