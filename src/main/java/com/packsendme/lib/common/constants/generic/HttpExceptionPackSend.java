@@ -280,6 +280,17 @@ public enum HttpExceptionPackSend {
 	 * {@code 319 UPDATE_VEHICLE}.
 	 */
 	UPDATE_VEHICLE(319, "UPDATE_VEHICLE"),
+	
+	/**
+	 * {@code 315 CREATED_ROADWAYBRE}.
+	 */
+	CREATED_LOCATION(320, "CREATED_LOCATION"),
+	
+	/**
+	 * {@code 316 UPDATE_ROADWAY}.
+	 */
+	UPDATE_LOCATION(321, "UPDATE_LOCATION"),
+
 
 	
 	// 400 - 500
