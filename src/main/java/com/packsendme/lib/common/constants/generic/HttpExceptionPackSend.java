@@ -130,6 +130,8 @@ public enum HttpExceptionPackSend {
 	DELETE_BODYWORK(220, "DELETE_BODYWORK"),
 	
 	
+	
+	
 	/**
 	 * {@code 213 DELETE_SMSCODE}.
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
@@ -147,6 +149,12 @@ public enum HttpExceptionPackSend {
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
 	DELETE_CATEGORY(223, "DELETE_CATEGORY"),
+	
+	/**
+	 * {@code 224  DELETE_UNITY_MEASUREMENT}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	DELETE_UNITY_MEASUREMENT(224, "DELETE_UNITY_MEASUREMENT"),
 
 	
 	// A) 300 - 400 (VALIDATE)
@@ -291,6 +299,16 @@ public enum HttpExceptionPackSend {
 	 */
 	UPDATE_LOCATION(321, "UPDATE_LOCATION"),
 
+
+	/**
+	 * {@code 322 CREATED_UNITYMEASUREMENT}.
+	 */
+	CREATED_UNITY_MEASUREMENT(322, "CREATED_UNITY_MEASUREMENT"),
+	
+	/**
+	 * {@code 323 UPDATE_UNITY_MEASUREMENT}.
+	 */
+	UPDATE_UNITY_MEASUREMENT(323, "UPDATE_UNITY_MEASUREMENT"),
 
 	
 	// 400 - 500
