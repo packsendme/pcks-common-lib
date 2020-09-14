@@ -155,7 +155,25 @@ public enum HttpExceptionPackSend {
 	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
 	 */
 	DELETE_UNITY_MEASUREMENT(224, "DELETE_UNITY_MEASUREMENT"),
+	
+	/**
+	 * {@code 225  CREATE_TRANSPORT}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	CREATE_TRANSPORT(225, "CREATE_TRANSPORT"),
 
+	/**
+	 * {@code 226  DELETE_TRANSPORT}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	DELETE_TRANSPORT(226, "DELETE_TRANSPORT"),
+	
+	/**
+	 * {@code 227  UPDATE_TRANSPORT}.
+	 * @see <a href="http://tools.ietf.org/html/rfc7231#section-6.3.2">HTTP/1.1: Semantics and Content, section 6.3.2</a>
+	 */
+	UPDATE_TRANSPORT(227, "UPDATE_TRANSPORT"),
+	
 	
 	// A) 300 - 400 (VALIDATE)
 
@@ -173,6 +191,8 @@ public enum HttpExceptionPackSend {
 	 * {@code 302 NOT FOUND ACCOUNT}.
 	 */
 	FOUND_SMS_CODE(304, "SMSCODE_FOUND"),
+	
+	
 	
 	/**
 	 * {@code 305 NOT FOUND ACCOUNT}.
@@ -309,6 +329,11 @@ public enum HttpExceptionPackSend {
 	 * {@code 323 UPDATE_UNITY_MEASUREMENT}.
 	 */
 	UPDATE_UNITY_MEASUREMENT(323, "UPDATE_UNITY_MEASUREMENT"),
+
+	/**
+	 * {@code 324 NOT FOUND ACCOUNT}.
+	 */
+	FOUND_TRANSPORT(324, "FOUND_TRANSPORT"),
 
 	
 	// 400 - 500
