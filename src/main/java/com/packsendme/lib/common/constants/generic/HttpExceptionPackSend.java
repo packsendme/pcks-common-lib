@@ -334,6 +334,27 @@ public enum HttpExceptionPackSend {
 	 * {@code 324 NOT FOUND ACCOUNT}.
 	 */
 	FOUND_TRANSPORT(324, "FOUND_TRANSPORT"),
+	
+	/**
+	 * {@code 325 CREATED_INITIALS}.
+	 */
+	CREATED_INITIALS(325, "CREATED_INITIALS"),
+	
+	/**
+	 * {@code 326 UPDATE_INITIALS}.
+	 */
+	UPDATE_INITIALS(326, "UPDATE_INITIALS"),
+
+	/**
+	 * {@code 327 NOT FOUND INITIALS}.
+	 */
+	FOUND_INITIALS(327, "FOUND_INITIALS"),
+
+	
+	/**
+	 * {@code 327 NOT FOUND INITIALS}.
+	 */
+	DELETE_INITIALS(328, "DELETE_INITIALS"),
 
 	
 	// 400 - 500
