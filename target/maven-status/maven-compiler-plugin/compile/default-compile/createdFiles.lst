@@ -16,6 +16,7 @@ com\packsendme\lib\common\constants\calculador\Currency_Country.class
 com\packsendme\lib\common\constants\generic\GoogleAPI_Constants.class
 com\packsendme\lib\common\constants\generic\Topic_SA_Constants.class
 com\packsendme\lib\common\constants\calculador\Calculate_Constants.class
+com\packsendme\lib\common\constants\generic\Fuel_Constants.class
 com\packsendme\lib\common\constants\way\Roadway_SA_Constants.class
 com\packsendme\lib\common\constants\generic\MetricUnitMeasurement_Constants.class
 com\packsendme\lib\common\response\Response.class
