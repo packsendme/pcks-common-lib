@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.packsendme.lib.common</groupId>
-  <artifactId>packsendme-common-lib</artifactId>
+  <artifactId>pcks-common-lib</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>packsendme-common-lib</name>
+  <name>pcks-common-lib</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
