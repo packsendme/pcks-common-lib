@@ -19,8 +19,6 @@ public class GoogleAPITrackingResponse_Dto implements Serializable {
 	public Map<String, RoadwayTrackingResponse_Dto> trackingRoadway = new HashMap<String, RoadwayTrackingResponse_Dto>();
 	public boolean status;
 	public double distance_total;
-	public String distanceF;
 	public int duration;
-	public String durationF;
 
 }
