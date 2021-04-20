@@ -16,16 +16,16 @@ public class RoadwayTrackingResponse_Dto implements Serializable {
 	
 	public String name_country;
 	public int toll_amount;
-	public double toll_price;
-	public double country_distanceF;
-	public double country_distanceM;
-	public double fuelGasoline_price;
-	public double fuelDiesel_price;
+	public Double toll_price;
+	public Double country_distanceF;
+	public Double country_distanceM;
+	public Double fuelGasoline_price;
+	public Double fuelDiesel_price;
 	public String currency;
 	public String unity_measurement_distance;
 	
-	public RoadwayTrackingResponse_Dto(String name_country, int toll_amount, double toll_price, double country_distanceF, double country_distanceM,
-			double fuelGasoline_price, double fuelDiesel_price, String currency, String unity_measurement_distance) {
+	public RoadwayTrackingResponse_Dto(String name_country, int toll_amount, Double toll_price, Double country_distanceF, Double country_distanceM,
+			Double fuelGasoline_price, Double fuelDiesel_price, String currency, String unity_measurement_distance) {
 		super();
 		this.name_country = name_country;
 		this.toll_amount = toll_amount;

@@ -16,8 +16,8 @@ public class GoogleAPIDistanceResponse_Dto implements Serializable {
 	
 	public String destination;
 	public String origin;
-	public double distanceM;
-	public double distanceF;
+	public Double distanceM;
+	public Double distanceF;
 	public String measureUnit;
 	public String status;
 }
