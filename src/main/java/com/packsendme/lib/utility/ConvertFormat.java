@@ -15,6 +15,8 @@ public class ConvertFormat {
 		return dtNow;
 	}
 	
+	
+	// ConvertDateNow-To-String
 	public String convertDateNowToStringShort() throws Exception {
 		Calendar cal = Calendar.getInstance();
 		SimpleDateFormat dateOnly = new SimpleDateFormat("yyyy-MM-dd");
