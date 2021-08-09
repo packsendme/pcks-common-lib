@@ -5,7 +5,7 @@ pipeline {
         stage('Git Checkout Repositorio') {
             steps {
                 git branch: 'develop',
-                url: 'https://github.com/packsendme/pcks-cross-commonslib.git'
+                url: 'https://github.com/packsendme/pcks-cross-commons-lib.git'
             }
         }
         stage('Java Build') {
